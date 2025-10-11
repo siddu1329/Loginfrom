@@ -1,0 +1,83 @@
+body{
+ margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+.loginform{
+       width: 350px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.id{
+        width: 100%;
+        margin-bottom: 20px; 
+}
+
+ .id input{
+        width: 100%;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #bba9a9;
+        outline: none;
+        color: #050000;
+        font-size: 16px;
+    }
+   .passkey{
+        width: 100%;
+        margin-bottom: 20px;  
+    }
+       .passkey input{
+           width: 100%;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #bba9a9;
+        outline: none;
+        color: #050000;
+        font-size: 16px;
+    }
+       .sub{
+        width: 100%;
+        height: 35px;
+        margin-bottom: 20px;
+       }
+         .sub input{
+           width: 100%;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #bba9a9;
+        outline: none;
+        color: #050000;
+        font-size: 16px;
+        border-radius: 10px;
+    } 
+      .sub input:hover{
+        background: #ffc107;
+        color: #000;
+    }
+      .sign{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        margin-left: 10px;
+        border-radius: 5px;
+
+   }
+  .sign {
+          color: #000000;
+    }
+
+   
